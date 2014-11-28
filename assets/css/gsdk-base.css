@@ -1244,11 +1244,12 @@ p.team-title{
 .main{
     background-color: #FFFFFF;
     position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 div.main-footer{
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 p.copyright{
@@ -1263,7 +1264,7 @@ div.final-invest-button{
     padding-top: 20px;
     text-align: center;
 }
-.term-number{
+div.section-content.number.term-number{
     padding-top: 0px;
 }
 
