@@ -1244,6 +1244,8 @@ p.team-title{
 .main{
     background-color: #FFFFFF;
     position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 div.main-footer{
     padding-top: 10px;

@@ -26,16 +26,20 @@ function runFadeIn(remove, add)
 		if (isScrolledIntoView(elem))
 		{
 			setFadeTimeout(remove, add, delay, elem)
-			delay = delay + 150;
+			delay = delay + 200;
 		}
 	}
 }
 
 $(document).scroll(function(e)
 {
+	runFadeIn("fadeinleftlater", "animated fadeInLeft");
 	runFadeIn("fadeinlater", "animated fadeIn");
+	runFadeIn("bounceinlater", "animated bounceIn");
 });
 
 $(document).on("ready", function(){
+	runFadeIn("fadeinleftlater", "animated fadeInLeft");
 	runFadeIn("fadeinlater", "animated fadeIn");
+	runFadeIn("bounceinlater", "animated bounceIn");
 });
