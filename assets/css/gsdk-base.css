@@ -1265,4 +1265,6 @@ div.final-invest-button{
     padding-top: 0px;
 }
 
-
+.fadeinlater{
+    visibility: hidden;
+}
